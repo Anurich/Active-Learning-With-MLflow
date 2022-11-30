@@ -1,0 +1,17 @@
+name: text-classification
+conda_env: conda.yaml
+entry_points:
+  preprocessing_classification:
+    parameters:
+      index2word: {type: str, default="index2word.pickle"}
+      word2index: {type: str, default="word2index.pickle"}
+    command: "python preprocessing.py {index2word} {word2index}"
+  training_classification:
+    parameters:
+      grad_accumulation: {type: int, default: 1}
+      budget: {type: int, default: 200}
+      trainFile: {type: str, default: "dataset/"}
+      testFile: {type: str, default: "dataset/"}
+      batch: {type: int, default: 4}
+      lr: {type: float, default:1e-5}
+    command: "python train.py --grad_accumulation {grad_accumulation} --budget {budget} --trainFile {trainFile} --testFile {testFile} --batch {batch} --lr {lr}"

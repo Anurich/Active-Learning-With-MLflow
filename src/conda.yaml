@@ -1,0 +1,16 @@
+name: text_classification
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7
+  - pip
+  - pip:
+    - mlflow==1.30.0
+    - scipy==1.7.3
+    - scikit-learn==1.0.2
+    - torch==1.12.1+cu113
+    - sentencepiece!=0.1.92
+    - transformers==4.16.2
+    - datasets>=1.8.0
+    - seqeval==1.2.2
+    - accelerate
