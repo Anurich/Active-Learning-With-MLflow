@@ -22,5 +22,22 @@ to the model trained with all the dataset.
       <li> Perform the Model, code versioning. </li>
       <li> Most important how to perform Code Reproducibility. </li>
       </ul>
-  All these showned in this experimentation.
 
+### Dataset Information.
+The dataset used is <b> Sentiment Analysis </b> taken from kaggle which can be downloaded from link <a href="https://www.kaggle.com/code/lakshmi25npathi/sentiment-analysis-of-imdb-movie-reviews"> Download </a>
+
+### Library Used.
+  - python=3.7
+  - pip:
+    - mlflow==1.30.0
+    - scipy==1.7.3
+    - scikit-learn==1.0.2
+    - torch==1.12.1+cu113
+    - sentencepiece!=0.1.92
+    - transformers==4.16.2
+    - datasets>=1.8.0
+    - seqeval==1.2.2
+    - accelerate
+
+### Note. 
+Experiment in this repository is to show how we can combined different Methodology to create powerfull AI, this experiment can be improved further and its not the final version. Feel free to clone and experiment with it and improve it further.
