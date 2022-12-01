@@ -6,5 +6,12 @@ This repository shows how we can use Active Learning with MLflow. In this experi
 ### Active Learning.
 * Active Learning provide a way to train the model using only the useful dataset and yet manage to achieve if not the best but comparetively similar result 
 to the model trained with all the dataset.
-* There exist manay different strategies to use Active Learning for sampling of dataset that can <b> uncertainity sampling, certainity sampling </b> or combination of both. But in this case i used simply entropy sampling strategy to sample the dataset. 
+* There exist many different strategies in Active Learning for sampling of dataset that can <b> uncertainity sampling, certainity sampling </b> or combination of both, etc. But in this case I used simple entropy sampling to sample the dataset. The idea is to simply show how we can combine Active Learning with real world example.  
+
+### MLFlow.
+* MLflow is one of the frameworks of MLOps, It give us many functionality for example:
+      * Experiment Tracking.
+      * Data, Model, Code Versioning.
+      * Code Reproducibility.
+
 
