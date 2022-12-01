@@ -10,8 +10,10 @@ to the model trained with all the dataset.
 
 ### MLFlow.
 * MLflow is one of the frameworks of MLOps, It give us many functionality for example:
-      * Experiment Tracking.
-      * Data, Model, Code Versioning.
-      * Code Reproducibility.
+      <ul>
+     <li> Experiment Tracking.</li>
+     <li> Data, Model, Code Versioning.</li>
+     <li>Code Reproducibility.</li>
+     </ul>
 
 
